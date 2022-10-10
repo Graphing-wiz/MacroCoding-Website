@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
     @keyframes bgcolor {
         0% {
             background-color: #0095ff
@@ -165,7 +172,7 @@
         <p2>Welcome to Macro Coding, the coding community for everyone!</p2>
 
     </div>
-    <div class="container info" style="border: 5px solid white;">
+    <div class="center container info" style="border: 5px solid white;">
         <h4 style="font-size: 30px">About Us</h4>
         <p1 style="font-size: 19px">Here in Macro Coding you can get help, or help others we have quality mentors and
             professionals in all areas of programming, from esoterric to excentric you can find help here!</p1>
@@ -174,7 +181,7 @@
         <br>
     </div>
     <br>
-    <div class="container info" style="border: 5px solid white;">
+    <div class="center container info" style="border: 5px solid white;">
         <h5 style="font-size: 30px">Hilights of Our Server</h5>
         <ul style="font-size: 20px;">
             <li>Many Custom Bot Designers!</li>
@@ -238,10 +245,12 @@
             function makeBold() {
                 let txt = document.getElementById("siteInfo")
                 txt.style.fontStyle = "italic"
+                txt.innerHTML = "HI PAL"
             }
             function makeNormal() {
                 let txt = document.getElementById("siteInfo")
                 txt.style.fontStyle = "normal"
+                txt.innerHTML = "Info"
             }
         </script>
     </div>
@@ -255,7 +264,8 @@
         <a href="https://discord.gg/u5WeVyhDmu" style="font-size: 20px;">Join Macro Coding!</a>
         <a href="https://github.com/Macro-Coding" style="text-indent: 40px;font-size: 20px;">Our Github</a>
         <br>
-        <a href="https://discord.com/api/oauth2/authorize?client_id=999512448736432189&permissions=8&scope=bot" style="text-indent: 40px;font-size: 20px;">Our Bot (Atomic)</a>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=999512448736432189&permissions=8&scope=bot"
+            style="text-indent: 40px;font-size: 20px;">Our Bot (Atomic)</a>
         <a href="https://atomic-commands.herokuapp.com/" style="text-indent: 40px;font-size: 20px;">Bot Website</a>
 
     </div>
