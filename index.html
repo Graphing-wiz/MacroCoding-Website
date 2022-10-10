@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    @keyframes bgcolor {
+        0% {
+            background-color: #0095ff
+        }
+
+        30% {
+            background-color: #55ff00
+        }
+
+        60% {
+            background-color: #ff6600
+        }
+
+        90% {
+            background-color: rgb(255, 0, 43)
+        }
+
+        100% {
+            background-color: #8000ff
+        }
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial;
+        font-size: 17px;
+    }
+
+    .container {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+    .container .content {
+        position: absolute;
+        bottom: 0;
+        background: rgb(255, 255, 255);
+        /* Fallback color */
+        background: rgba(255, 0, 0, 0.5);
+        /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .info {
+        font-family: "Lucida Console", "Courier New", monospace;
+        opacity: 1;
+        background-color: rgb(187, 161, 161);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+        border-radius: 8px;
+        width: 500px;
+    }
+
+    .info2 {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-width: 10px solid black;
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 20px;
+        border-radius: 8px;
+        width: 6000px;
+    }
+
+    .rainbow {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        letter-spacing: 0.15rem;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: -4px 4px #ef3550,
+            -8px 8px #f48fb1,
+            -12px 12px #7e57c2,
+            -16px 16px #2196f3,
+            -20px 20px #26c6da,
+            -24px 24px #43a047,
+            -28px 28px #eeff41,
+            -32px 32px #f9a825,
+            -36px 36px #ff5722;
+    }
+
+    .center {
+        width: 1366px;
+        height: 439px;
+        position: relative;
+    }
+
+    .person {
+        font-size: 30px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    .slidecontainer {
+        width: 100%;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 15px;
+        border-radius: 5px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #04AA6D;
+        cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #04AA6D;
+        cursor: pointer;
+    }
+</style>
+
+<head>
+    <title>
+        Welcome To Macro Coding
+    </title>
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn.discordapp.com/avatars/1002937272120901742/28cf4c3cdea759e9d93e11fff11a2927.webp">
+</head>
+
+<body
+    style="-webkit-animation: bgcolor 20s infinite; animation: bgcolor 10s infinite; -webkit-animation-direction: alternate; animation-direction: alternate;"
+    id="background">
+    <img class="center" style="border-radius: 8px; filter: blur(0px); border: 5px solid white;"
+        src="https://cdn.discordapp.com/attachments/991819168510910586/1029024467982237716/unknown.png" alt="Nature">
+    <div class="content" style="text-align: center;">
+        <h2 style="color: rgb(255, 255, 255); font-size: 40px;">Welcome!</h2>
+        <p2>Welcome to Macro Coding, the coding community for everyone!</p2>
+
+    </div>
+    <div class="container info" style="border: 5px solid white;">
+        <h4 style="font-size: 30px">About Us</h4>
+        <p1 style="font-size: 19px">Here in Macro Coding you can get help, or help others we have quality mentors and
+            professionals in all areas of programming, from esoterric to excentric you can find help here!</p1>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <div class="container info" style="border: 5px solid white;">
+        <h5 style="font-size: 30px">Hilights of Our Server</h5>
+        <ul style="font-size: 20px;">
+            <li>Many Custom Bot Designers!</li>
+            <br>
+            <li>Mentors in areas from PHP to Python!</li>
+            <br>
+            <li>An amazing community with tonnes of things to discuss and enjoy</li>
+            <br>
+            <li class="rainbow">POTATOES!</li>
+            <br>
+            <li>Custom Language Designers and more!</li>
+        </ul>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <div style="border: 5px solid white; background-color: #000000; color:rgb(255, 255, 255);" class=" container info2">
+        <br>
+        <h1 style="font-size: 30px;">⭐Testimonials⭐</h1>
+        <br>
+        <img style='width: 50px; height: 50px; border-radius: 50%;'
+            src="https://cdn.discordapp.com/avatars/949801871197995008/f8b0c5033f6058ca405031e1270053b1.webp">
+        <p7 class="person" style="font-size: 20px;">Maxx</p7>
+        <br>
+        <p8>"As the owner of the server I find it very enjoyable to see a kind community interacting and thriving!"</p8>
+        <br>
+        <br>
+        <img style='width: 50px; height: 50px; border-radius: 50%;'
+            src="https://cdn.discordapp.com/avatars/493443549484810250/dfcf4eb8b451c270a1e1f2cc073fc5b3.webp">
+        <p7 class="person" style="font-size: 20px;">Masquerade</p7>
+        <br>
+        <p8>"From my point of view Macro Coding is a friendly community with nice Staff members and Owner. I had learned
+            more about JavaScript, Python and Web Development. I hope the best for the community and the discord server"
+        </p8>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
+            <p>Value: <span id="demo"></span></p>
+        </div>
+        <script>
+            var i = 0;
+
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function () {
+                i++
+                if (i == 2) {
+                    output.innerHTML = "Have fun playing with this slider.";
+                } else if (this.value == 100) {
+                    output.innerHTML = "💯px";
+                } else if (this.value == 7) {
+                    output.innerHTML = "i bet u can barley see me";
+                }
+                else {
+                    output.innerHTML = this.value + "px";
+                    output.style.fontSize = this.value + "px"
+                }
+            }
+            function makeBold() {
+                let txt = document.getElementById("siteInfo")
+                txt.style.fontStyle = "italic"
+            }
+            function makeNormal() {
+                let txt = document.getElementById("siteInfo")
+                txt.style.fontStyle = "normal"
+            }
+        </script>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container info" style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255); width: 1366px">
+        <h10 id="siteInfo" onmouseover="makeBold()" onmouseleave="makeNormal()">Info</h10>
+        <hr>
+        <br>
+        <a href="https://discord.gg/u5WeVyhDmu" style="font-size: 20px;">Join Macro Coding!</a>
+        <a href="https://github.com/Macro-Coding" style="text-indent: 40px;font-size: 20px;">Our Github</a>
+        <br>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=999512448736432189&permissions=8&scope=bot" style="text-indent: 40px;font-size: 20px;">Our Bot (Atomic)</a>
+        <a href="https://atomic-commands.herokuapp.com/" style="text-indent: 40px;font-size: 20px;">Bot Website</a>
+
+    </div>
+</body>
+
+</html>
