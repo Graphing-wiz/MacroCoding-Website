@@ -111,7 +111,7 @@
     }
 
     .person {
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Lucida Console", "Courier New", monospace;
     }
 
@@ -152,6 +152,11 @@
         background: #04AA6D;
         cursor: pointer;
     }
+    .icon {
+        width: 50px;
+        height: 50px; 
+        border-radius: 50%;
+    }
 </style>
 
 <head>
@@ -163,7 +168,7 @@
 </head>
 
 <body
-    style="-webkit-animation: bgcolor 20s infinite; animation: bgcolor 10s infinite; -webkit-animation-direction: alternate; animation-direction: alternate;"
+    style="background-color: rgb(92, 76, 76);"
     id="background">
     <img class="center" style="border-radius: 8px; filter: blur(0px); border: 5px solid white;"
         src="https://cdn.discordapp.com/attachments/991819168510910586/1029024467982237716/unknown.png" alt="Nature">
@@ -172,17 +177,17 @@
         <p2>Welcome to Macro Coding, the coding community for everyone!</p2>
 
     </div>
-    <div class="center container info" style="border: 5px solid white;">
+    <div class="container info2" style="color: white; background-color: #000000;border: 5px solid white;">
         <h4 style="font-size: 30px">About Us</h4>
+        <hr>
         <p1 style="font-size: 19px">Here in Macro Coding you can get help, or help others we have quality mentors and
             professionals in all areas of programming, from esoterric to excentric you can find help here!</p1>
         <br>
-        <br>
-        <br>
     </div>
     <br>
-    <div class="center container info" style="border: 5px solid white;">
+    <div class="container info" style="background-color: black; color: white; border: 5px solid white;">
         <h5 style="font-size: 30px">Hilights of Our Server</h5>
+        <hr>
         <ul style="font-size: 20px;">
             <li>Many Custom Bot Designers!</li>
             <br>
@@ -193,15 +198,19 @@
             <li class="rainbow">POTATOES!</li>
             <br>
             <li>Custom Language Designers and more!</li>
+            <br>
         </ul>
+        <br>
         <br>
         <br>
         <br>
     </div>
     <br>
-    <div style="border: 5px solid white; background-color: #000000; color:rgb(255, 255, 255);" class=" container info2">
+    <div style="border: 5px solid white; background-color: #000000; color:rgb(255, 255, 255);" class=" container info2" id="testimonials">
         <br>
         <h1 style="font-size: 30px;">⭐Testimonials⭐</h1>
+        <br>
+        <hr>
         <br>
         <img style='width: 50px; height: 50px; border-radius: 50%;'
             src="https://cdn.discordapp.com/avatars/949801871197995008/f8b0c5033f6058ca405031e1270053b1.webp">
@@ -217,11 +226,75 @@
         <p8>"From my point of view Macro Coding is a friendly community with nice Staff members and Owner. I had learned
             more about JavaScript, Python and Web Development. I hope the best for the community and the discord server"
         </p8>
-        <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
-            <p>Value: <span id="demo"></span></p>
-        </div>
+        <br>
+        <br>
+        <img style='width: 50px; height: 50px; border-radius: 50%;'
+            src="https://cdn.discordapp.com/avatars/598129893397495823/d2faad49de8bed9ded2f4eef70e43d67.webp">
+        <p7 class="person" style="font-size: 20px;">Boris (drb0r1s), Front-end Web Developer</p7>
+        <br>
+        <p8>"As a developer with almost two years of experience, I really appreciate Discord servers that help
+            developers and provide them with advice, ideas or simply give them the opportunity to share their thoughts
+            with others. When I joined the Macro Coding Discord server a few months ago, I had pretty standard
+            expectations. Now, after a few months as a member of this Discord server, I could say that my experience is
+            definitely above my personal standards of quality of what a Discord server should be. Macro Coding is a real
+            example of a Discord server that is intended for developers, for the simple reason that there are people
+            with a lot of experience in the server who are capable and have the desire to help and solve any problem.
+            The staff team of the server is very active, so you should not even consider the existence of rule
+            violations, because it simply does not exist on this server, the rules are strictly followed. Thanks to
+            Macro Coding, I met a lot of great developers, from whom I got some very good advice, but I also gave my
+            personal contribution by helping newer developers."
+        </p8>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div style="border: 5px solid white; background-color: #000000; color:rgb(255, 255, 255);" class=" container info2">
+        <br>
+        <h12 style="font-size: 30px;">⭐Our Amazing Staff Team!⭐</h12>
+        <br>
+        <hr>
+        <br>
+        <p7 class="person">Maxx, Owner</p7>
+        <img src="https://cdn.discordapp.com/avatars/949801871197995008/f8b0c5033f6058ca405031e1270053b1.webp" class="icon">
+        <br>
+        <p8 class="person">Ducky Boss, Co Owner</p8>
+        <img class="icon" src="https://cdn.discordapp.com/avatars/600010784453558331/638cff7643ef84b39b63a7653f2f4952.webp">
+        <br>
+        <p13 class="person">boris, Admin</p13>
+        <img class="icon" src="https://cdn.discordapp.com/avatars/598129893397495823/d2faad49de8bed9ded2f4eef70e43d67.webp">
+        <br>
+        <p9 class="person">rust, Admin</p9>
+        <img class="icon" src="https://cdn.discordapp.com/avatars/472530726613549066/871d5f50447b0b04da9ef114624b280b.webp">
+        <br>
+        <p10 class="person">hacker11, Moderator</p10>
+        <img class="icon" src="https://cdn.discordapp.com/avatars/525016236157829120/2c0d989532c8e4a68833b2335995c81c.webp">
+        <br>
+        <p11 class="person">Toni_Boss, Moderator</p11>
+        <img class="icon" src="https://cdn.discordapp.com/avatars/933662335611068477/412163b4e91e0beb251b75389ced395d.webp">
+        <br>
+        <br>
+
+    </div>
         <script>
+            /*
+            function rgbColor(){
+                var switch2 = document.getElementById("switch");
+                var lol = document.getElementById("background")
+                var testimonials = document.getElementById("testimonials")
+                var info3 = document.getElementById("info3")
+                if(switch2.checked){
+                    lol.style.backgroundColor = "white"
+                    info3.style.backgroundColor = "rgb(92, 76, 76)"
+                    testimonials.style.backgroundColor = "rgb(92, 76, 76)"
+                    lol.style.color = "black"
+                    lol.style.borderColor = "black"
+                }else{
+                    lol.style.backgroundColor = "rgb(92, 76, 76)"
+                    testimonials.style.backgroundColor = "white"
+                    info3.style.backgroundColor = "white"
+                }
+            }
+            */
             var i = 0;
 
             var slider = document.getElementById("myRange");
@@ -245,19 +318,20 @@
             function makeBold() {
                 let txt = document.getElementById("siteInfo")
                 txt.style.fontStyle = "italic"
-                txt.innerHTML = "HI PAL"
+                txt.innerHTML = "HI JAY"
             }
             function makeNormal() {
                 let txt = document.getElementById("siteInfo")
                 txt.style.fontStyle = "normal"
                 txt.innerHTML = "Info"
             }
+
         </script>
-    </div>
     <br>
     <br>
     <br>
-    <div class="container info" style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255); width: 1366px">
+    
+    <div class="container info" style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255); width: 1366px" id="info3">
         <h10 id="siteInfo" onmouseover="makeBold()" onmouseleave="makeNormal()">Info</h10>
         <hr>
         <br>
@@ -267,6 +341,7 @@
         <a href="https://discord.com/api/oauth2/authorize?client_id=999512448736432189&permissions=8&scope=bot"
             style="text-indent: 40px;font-size: 20px;">Our Bot (Atomic)</a>
         <a href="https://atomic-commands.herokuapp.com/" style="text-indent: 40px;font-size: 20px;">Bot Website</a>
+
 
     </div>
 </body>
