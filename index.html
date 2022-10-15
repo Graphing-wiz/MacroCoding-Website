@@ -327,6 +327,7 @@
 
             slider.oninput = function () {
                 i++
+                document.title = `(${i}) Welcome To Macro Coding`
                 if (i == 2) {
                     output.innerHTML = "Have fun playing with this slider.";
                 } else if (this.value == 100) {
@@ -339,10 +340,12 @@
                     output.style.fontSize = this.value + "px"
                 }
             }
+            var x = 1;
             function makeBold() {
                 let txt = document.getElementById("siteInfo")
                 txt.style.fontStyle = "italic"
-                txt.innerHTML = "HI JAY"
+                txt.innerHTML = "HI JAY x"+x
+                x++
             }
             function makeNormal() {
                 let txt = document.getElementById("siteInfo")
